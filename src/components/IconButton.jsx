@@ -10,8 +10,8 @@ export default function IconButton ({ isTop, isBottom, className, onClick}) {
     }
 
     return (
-        <Button variant = {margin} style = {{marginBottom: '7px'}} onClick={onClick}>
-        <i className={className} style={{fontSize: '24px'}}></i>
+        <Button variant={margin} style ={{ marginBottom: '7px' }} onClick={onClick}>
+        <i className={className} style={{ fontSize: '24px' }}></i>
         </Button>
-    )
+    );
 }

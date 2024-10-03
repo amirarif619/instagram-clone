@@ -13,7 +13,7 @@ function App() {
     <Row>
       <Col sm={1}
       className="d-flex flex-column justify-content-start align-items-center vh-100 bg-light"
-      style={{position: 'sticky', top:0 }}
+      style={{ position: "sticky", top: 0 }}
       >
       <IconButton className="bi bi-instagram" isTop />
       <IconButton className="bi bi-house" />
